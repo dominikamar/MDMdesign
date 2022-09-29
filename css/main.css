@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  background-image: url(../img/hero_small.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.mobile-nav i {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+.mobile-nav button {
+  border: none;
+}
+
+.navbar-nav {
+  padding: 10px 0px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link {
+  margin: 0px 10px;
+}
+
+h1 {
+  position: absolute;
+  font-size: 6rem;
+  text-shadow: 0px 0px 5px #333;
+  color: white;
+  z-index: 5;
+}
+
+h2 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.aboutus p.description {
+  font-size: 1.4rem;
+}
+.aboutus p.contact {
+  font-size: 1.2rem;
+}
+.aboutus .btn {
+  font-size: 1.2rem;
+}
+
+.bg-mine {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.prices {
+  background-color: #ddd;
+}
+
+.card h5 {
+  padding-top: 20px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card p {
+  padding-top: 10px;
+  font-size: 1.4rem;
+}
+.card i {
+  padding: 20px;
+  font-size: 5rem;
+}
+.card .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.card .card-body {
+  text-align: center;
+}
+
+.address {
+  padding: 20px;
+}
+.address h3 {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.address p {
+  font-size: 1.4rem;
+}
+
+.form {
+  padding: 20px;
+}
+.form label {
+  font-size: 1.2rem;
+}
+.form option {
+  font-size: 1.2rem;
+}
+
+iframe {
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+}
+
+footer {
+  background-color: #ddd;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 300px) {
+  [id] {
+    scroll-margin-top: 45px;
+  }
+}
+@media (min-width: 768px) {
+  [id] {
+    scroll-margin-top: 61px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-img {
+    background-position-y: -150px;
+    background-image: url(../img/hero_big.jpg);
+  }
+  .main-service {
+    scale: 1.15;
+    margin-bottom: 40px;
+  }
+  .main-service .card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+@media (min-width: 1400px) {
+  .hero-img {
+    background-position-y: -350px;
+    background-image: url(../img/hero_big.jpg);
+  }
+}/*# sourceMappingURL=main.css.map */

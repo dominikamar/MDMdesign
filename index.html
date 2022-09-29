@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MDM design</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet" />
+		<script
+			src="https://kit.fontawesome.com/a8199a168e.js"
+			crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#navbar">
+		<header>
+			<section id="home" class="hero-img p-5">
+				<nav
+					class="mobile-nav navbar navbar-expand-md bg-mine position-fixed top-0 w-100 py-3 d-md-none">
+					<div class="container">
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup"
+							aria-controls="navbarNavAltMarkup"
+							aria-expanded="false"
+							aria-label="Toggle navigation">
+							<i class="fa-solid fa-bars"></i>
+						</button>
+						<div
+							class="collapse navbar-collapse"
+							id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-link active text-light" href="#home"
+									>Home</a
+								>
+								<a class="nav-link text-light" href="#aboutus"
+									>o firmie</a
+								>
+								<a class="nav-link text-light" href="#prices">Cennik</a>
+								<a class="nav-link text-light" href="#contact">Kontakt</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<h1 class="text-center">
+					<i class="fa-brands fa-squarespace"></i><span> MDM </span>design
+				</h1>
+				<div class="hero-shadow"></div>
+			</section>
+		</header>
+
+		<nav
+			class="navbar navbar-expand-md bg-white sticky-top d-none d-md-flex"
+			id="#navbar">
+			<div class="container">
+				<div
+					class="collapse navbar-collapse d-flex justify-content-center"
+					id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" href="#home">Home</a>
+						<a class="nav-link" href="#aboutus">o firmie</a>
+						<a class="nav-link" href="#prices">Cennik</a>
+						<a class="nav-link" href="#contact">Kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section id="aboutus" class="aboutus py-3">
+			<div class="container aboutus">
+				<h2 class="py-5 ps-4 ps-md-0">o firmie</h2>
+				<div class="row m-0">
+					<div class="col-lg-4">
+						<img
+							src="./img/architecture-1857175_1920_big.jpg"
+							alt="Rysunek architektoniczny plan mieszkania"
+							class="img-fluid" />
+					</div>
+					<div class="col-lg-8">
+						<p class="description ps-lg-5 pt-5 pt-lg-0">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
+							repudiandae maxime laboriosam, reiciendis, nam dolor modi
+							asperiores minima quaerat minus quasi iste quos nihil ratione
+							nulla officiis voluptates delectus velit nisi beatae nobis sit
+							similique quibusdam soluta! Cupiditate asperiores repellendus
+							provident. Numquam excepturi nemo nam accusamus. Voluptatibus,
+							sint non. Omnis odit suscipit nulla. Eligendi laudantium, aliquam
+							atque suscipit at iste voluptates possimus dolores numquam facere
+							officia est dolorem officiis sint, beatae nihil libero?
+						</p>
+						<div
+							class="under-text d-flex justify-content-between align-items-center">
+							<p class="contact py-5 ps-lg-5 pe-3">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+								iste quae facere qui asperiores nihil.
+							</p>
+							<a href="#contact" class="py-5"
+								><button
+									type="button"
+									class="btn btn-outline-secondary px-5 py-3">
+									Kontakt
+								</button></a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="carousel">
+			<div class="container">
+				<div
+					id="carouselExampleControls"
+					class="carousel slide py-5"
+					data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="./img/bathroom-6686057_1920.jpg"
+								class="d-block w-100"
+								alt="wnętrze nowoczesnej łazienki" />
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./img/library-5641389_1920.jpg"
+								class="d-block w-100"
+								alt="wnętrze biblioteki" />
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./img/world-trade-center-5889199_1920.jpg"
+								class="d-block w-100"
+								alt="wnętrza centrum handlowego World Trade Center " />
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="prices" class="prices py-5">
+			<div class="container">
+				<h2 class="py-5 ps-4 ps-md-0">Cennik</h2>
+				<div class="row d-flex justify-content-center">
+					<div class="col-8 col-md-4 col-lg-3 px-md-3 px-lg-5 py-5 py-md-0">
+						<div class="card py-3">
+							<div class="card-body">
+								<h5 class="card-title">usługa 1</h5>
+								<p class="card-text">Lorem, ipsum dolor.</p>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+								<p><i class="fa-solid fa-share"></i></p>
+								<button type="button" class="btn btn-secondary px-5 py-3">
+									wybierz
+								</button>
+							</div>
+						</div>
+					</div>
+					<div
+						class="main-service col-8 col-md-4 col-lg-3 px-md-3 px-lg-5 py-5 py-md-0">
+						<div class="card py-3">
+							<div class="card-body">
+								<h5 class="card-title">usługa 2</h5>
+								<p class="card-text">Lorem, ipsum dolor.</p>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+								<p><i class="fa-solid fa-bookmark"></i></p>
+								<button type="button" class="btn btn-primary px-5 py-3">
+									wybierz
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 col-md-4 col-lg-3 px-md-3 px-lg-5 py-5 py-md-0">
+						<div class="card py-3">
+							<div class="card-body">
+								<h5 class="card-title">usługa 3</h5>
+								<p class="card-text">Lorem, ipsum dolor.</p>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+								<p><i class="fa-solid fa-barcode"></i></p>
+								<button type="button" class="btn btn-secondary px-5 py-3">
+									wybierz
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact py-5">
+			<div class="container contact">
+				<h2 class="py-5 ps-4 ps-md-0">Kontakt</h2>
+				<div class="row m-0">
+					<div
+						class="col-lg-4 d-flex justify-content-center align-items-center text-center">
+						<div class="address">
+							<h3>adres</h3>
+							<p>ul. Marszałkowska 22</p>
+							<p>Warszawa</p>
+							<p>22-222</p>
+							<p>+48 600 000 000</p>
+							<p>kontakt@mail.pl</p>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="form">
+							<div class="row">
+								<div class="col-lg-6">
+									<label>Imię i nazwisko:</label>
+									<input type="text" class="form-control" />
+								</div>
+								<div class="col-lg-6">
+									<label>Adres mailowy:</label>
+									<input type="text" class="form-control" />
+								</div>
+							</div>
+							<label>Wybierz temat:</label>
+							<select class="form-select">
+								<option selected></option>
+								<option>Prośba o wycenę</option>
+								<option>Pytanie o projekt</option>
+								<option>Współpraca</option>
+							</select>
+							<div class="col-12">
+								<label>Wpisz treść wiadomości:</label>
+								<textarea class="form-control" rows="6"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.467415955981!2d21.017988315885564!3d52.21672526641253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecce6e338c60d%3A0x60c5f345a7262b5e!2sMarsza%C5%82kowska%2022%2C%2000-026%20Warszawa!5e0!3m2!1spl!2spl!4v1664375415943!5m2!1spl!2spl"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"></iframe>
+			</div>
+		</section>
+		<footer>
+			<p class="py-5 mb-0 text-center">
+				&copy; 2022 | MDM design | Dominika Marczyńska
+			</p>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
